@@ -25,6 +25,6 @@ class BankAccount{
 const myaccount = new BankAccount('Emon', 1201, 100000);
 
 myaccount.addBalance = 50000
-// setter call korar somoy function er moto () call kora jabena = diye man dite hobe
+// setter call korar somoy function er moto () call kora jabena = diye value dite hobe
 console.log(myaccount);
 
