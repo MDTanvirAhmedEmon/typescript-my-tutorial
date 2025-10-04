@@ -75,9 +75,9 @@ class Dog extends Prani {
     }
 }
 
-function isDog(object: Prani): object is Dog {
-    return object instanceof Dog;
-}
+// function isDog(object: Prani): object is Dog {
+//     return object instanceof Dog;
+// }
 
 function getSound(object: Prani) {
     if(object instanceof Cat) { 
