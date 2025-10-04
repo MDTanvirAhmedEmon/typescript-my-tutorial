@@ -10,7 +10,7 @@ class Counter {
     };
 }
 
-// const instance1 = new Counter();
-// const instance2 = new Counter();
+// const instance1 = new Counter(); // static use korle instance er jonno alada memory use hobena. Orthat duita instance created hoise porer ta 1 howyar kotha but oita 2 hobe karon alada hobena
+// const instance2 = new Counter(); // static er jonno this er poriborte class er name use korte hobe
 console.log(Counter.addNumber());
 console.log(Counter.addNumber());
